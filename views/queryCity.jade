@@ -1,0 +1,11 @@
+//
+   Created by Administrator on 2018/5/21.
+extends layout
+block content
+    form(method='post',action='/web/queryCity')
+        div(class='query-block')
+            input(type='text' class='province' name='province' placeholder='请输入省会名称' value='#{province}')
+            button(class='query-btn') 查询
+        ul(class='city-block')
+            each item in cityList
+                li(class='city-item') #{item}

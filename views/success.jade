@@ -1,0 +1,27 @@
+//
+   Created by Administrator on 2018/5/20.
+extends layout
+
+block content
+    div(class='success-page')
+        img(class='head-icon' src= '#{data.headIcon}')
+        ul(class='msg-block')
+            li(class='msg-item')
+                div(class='title') 姓名
+                div(class='inner-content') #{data.name}
+            li(class='msg-item')
+                div(class='title') 性别
+                div(class='inner-content') #{data.sex}
+            li(class='msg-item')
+                div(class='title') 生日
+                div(class='inner-content') #{data.birthday}
+            li(class='msg-item')
+                div(class='title') 姓所在地
+                div(class='inner-content') #{data.address}
+            li(class='msg-item')
+                div(class='title') 姓电子邮箱
+                div(class='inner-content') #{data.email}
+            li(class='msg-item')
+                div(class='title') 联系方式
+                div(class='inner-content') #{data.phone}
+

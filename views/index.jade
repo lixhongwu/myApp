@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  div(class='top')天猫商城
+  div(class='content')
+    div(class='content-body')
+      form(method='post',action='/users/login')
+        div(class='login')
+          p(class='title')登录密码
+          div(class='user-block login-item')
+            label(class='user-icon')
+            input(class="user" type='text' name='userName' placeholder='请输入账号')
+          div(class='password-block login-item')
+            label(class="password-icon")
+            input(class='password' type='password' name='userPwd' placeholder='请输入密码' value='123456')
+          button(class='login-btn')登录
+
+

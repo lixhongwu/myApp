@@ -1,0 +1,205 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+body,div {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  padding: 22px 0px;
+  height: 44px;
+  line-height: 44px;
+  width: 1190px;
+  margin: auto;
+  font-size: 40px;
+  color: #FF420A;
+  font-weight: 700;
+}
+.content {
+  height: 600px;
+  background-color: rgb(1, 201, 253);
+}
+
+.content .content-body {
+  width: 1190px;
+  height: 100%;
+  margin: 0 auto;
+  background: url('/images/login-bg.jpg') no-repeat;
+  position: relative;
+}
+
+.login {
+  width: 350px;
+  height: 315px;
+  box-sizing: border-box;
+  padding: 26px 20px;
+  background: #fff;
+  position: absolute;
+  top: 91px;
+  right: 0px;
+}
+.login .title {
+  height: 18px;
+  line-height: 18px;
+  font-size: 16px;
+  color: #3c3c3c;
+  margin-top: 9px;
+  padding-bottom: 8px;
+  font-weight: 700;
+}
+.login .login-item {
+  width: 298px;
+  height: 40px;
+  margin-top: 25px;
+  border: 1px solid #cbcbcb;
+}
+
+.login .login-item label{
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.login .login-item input{
+  width: 256px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #9b9b9b;
+  box-sizing: border-box;
+  padding: 0 10px;
+  border: 0;
+}
+.login .user-icon {
+  background: #ececec url('/images/login-icon.png') no-repeat -5px -79px;
+}
+
+.login .password-icon {
+  background: #ececec url('/images/login-icon.png') no-repeat -50px -79px;
+}
+
+.login .login-btn {
+  width: 300px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  background-color: rgba(255,0,54,.8);
+  margin-top: 25px;
+  cursor: pointer;
+  border: 0;
+}
+
+.success-page,.fail-page{
+  width: 600px;
+  margin: 0 auto;
+  border:1px solid rgb(199, 199, 199);
+  border-radius: 4px;
+  box-shadow: 4px 8px 31px #bdbdbd;
+  background-color: #fff;
+  margin-top: 80px;
+  padding: 30px 50px;
+}
+.success-page .head-icon {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border:2px solid #cbcbcb;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.msg-block {
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+.msg-block li{
+  height: 50px;
+  border-bottom:1px dashed #cbcbcb;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.msg-block li .title {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  color: #b1b1b1;
+  float: left;
+}
+
+.msg-block li .inner-content {
+  width: 500px;
+  height: 50px;
+  line-height: 50px;
+  color: #424242;
+  float: left;
+}
+
+.fail-page {
+  font-size: 40px;
+  font-weight: 700;
+  color: #FF420A;
+  padding: 30px;
+  text-align: center;
+}
+
+.query-block {
+  width: 640px;
+  height: 40px;
+  margin: 180px auto 0;
+}
+.query-block .province{
+  width: 523px;
+  height: 20px;
+  padding: 9px 7px;
+  font: 16px arial;
+  border: 1px solid #b8b8b8;
+  border-bottom: 1px solid #ccc;
+  border-right: 0;
+  vertical-align: top;
+  outline: none;
+  box-shadow: none;
+  float: left;
+}
+.query-block .query-btn {
+  cursor: pointer;
+  width: 102px;
+  height: 40px;
+  line-height: 40px;
+  padding: 0;
+  border: 0;
+  background: none;
+  background-color: #38f;
+  font-size: 16px;
+  color: white;
+  box-shadow: none;
+  font-weight: normal;
+  float: left;
+  border: 0;
+}
+.city-block {
+  width: 638px;
+ margin: 0 auto;
+  padding: 0;
+  border: 1px solid #b8b8b8;
+  border-top-color: #fff;
+
+}
+.city-block li {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 7px;
+  background:#fff;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.city-block li:hover {
+  background-color: #f9f9f9;
+}
